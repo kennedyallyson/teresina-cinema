@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Teresina Cinema</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: red;
+      }
+
+      h1 {
+        font-family: sans-serif;
+        color: #fff;
+        padding: 5px;
+      }
+
+      img {
+        width: 450px;
+        height: 667px;
+      }
+
+      .images {
+        margin-left: 17%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Teresina Cinema</h1>
+    </header>
+
+    <div class="images">
+      % for sources in src:
+        <img src="{{sources}}" alt="image">
+      % end
+    </div>
+
+  </body>
+</html>
