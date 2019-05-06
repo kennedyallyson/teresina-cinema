@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Teresina Cinema</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #ff3333;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    color: #fff;
+    padding: 1px;
+    margin-left: 20px;
+  }
+  
+  img {
+      height: 90vh;
+  }
+  
+  .images {
+    display: flex;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Teresina Cinema</h1>
+  </header>
+  <div class="images">
+    % for sources in src:
+      <img src="{{sources}}" alt="image">
+    % end
+  </div>
+</body>
+</html>
