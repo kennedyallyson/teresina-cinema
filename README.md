@@ -2,6 +2,10 @@
 
 Web application to know what movies are in the movie theater in Teresina city.
 
+## Screenshot
+
+<img src="image/teresina-cinema.png" alt="">
+
 ## Installation of dependencies
 
 ```
